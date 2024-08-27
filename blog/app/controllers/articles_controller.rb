@@ -18,6 +18,7 @@ class ArticlesController < ApplicationController
       redirect_to @articles
     else
       render :new, status: :unprocessable_entity
+      #test comment
     end
   end
 end
