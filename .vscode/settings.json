@@ -1,0 +1,10 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:tic-tac-toe-two}/blog/storage/development.sqlite3",
+      "name": "blog"
+    }
+  ]
+}
